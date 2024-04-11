@@ -20,7 +20,10 @@
 
 Avant de up le docker-compose, il est nécéssaire de lancer dans le dossier racine "myworks" ces commandes, qui permettent de charger le module Filebeat d'elasticsearch qui permettra facilement de centraliser tous les logs de nos différents conteneurs Docker.
 
-curl -L -O https://raw.githubusercontent.com/elastic/beats/7.10/deploy/docker/filebeat.docker.yml
-mv filebeat.docker.yml filebeat.yml
-sudo chown root filebeat.yml
-sudo chmod go-w filebeat.yml
+- curl -L -O https://raw.githubusercontent.com/elastic/beats/7.10/deploy/docker/filebeat.docker.yml
+
+- mv filebeat.docker.yml filebeat.yml
+
+- sudo chown root filebeat.yml
+
+- sudo chmod go-w filebeat.yml

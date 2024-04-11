@@ -7,7 +7,7 @@
 - Déploiement d'un service de monitoring avec Prometheus
 - Visualisation des Dashboards avec Grafana
 
-## Utilisation de :
+## Technos utilisés :
 
 - ElasticSearch
 - Kibana
